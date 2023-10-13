@@ -48,7 +48,7 @@ function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-let userNumber = getRandomNumber(1, 5);
+let userNumber = parseInt(prompt('Scegli un numero da 1 a 5'));
 let pcNumber = getRandomNumber(1, 5);
 
 console.log('Il tuo numero è', userNumber);
