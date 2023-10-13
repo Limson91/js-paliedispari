@@ -1,9 +1,9 @@
 # Palindroma
-- Chiedere all’utente di inserire una parola 
-- Creare una funzione per capire se la parola inserita è palindroma
+- Chiedere all’utente di inserire una parola (dovrebbe essere tutta minuscola, bisogna trasformarla);
+- Creare una funzione per capire se la parola inserita è palindroma:
     - IF è palindroma (funzione);
-        - stampa in console che la parola è palindroma;
-    - ELSE stampa in console che la parola non è palindroma;
+        - stampa in console che la parola è palindroma (= true);
+    - ELSE stampa in console che la parola non è palindroma (= false);
 
 - La funzione si basa sulla stringa della parola, invertita e confrontata con la parola 'dritta': se è uguale, è palindroma.
 
